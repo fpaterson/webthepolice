@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+body {
+    background-color: gray;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Futura Condensed, Muli', Arial, sans-serif;
+    font-weight: 600;
+}
+
+/* header--PREGUNTAR POR LA BARRA DE COLOR QUE APARECE Y NO SE VA----*/
+
+
+/* LOGO--------*/
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width: 20%;
+    padding: 17px;   
+}
+
+/*-----BARRA MENÚ-----*/
+
+.barra {
+    text-align: center;
+}
+
+.barra ul li {
+    font-size: 1.3em;
+    letter-spacing: 0.1px;
+    line-height: 1em;
+    margin: 40px 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline;
+   
+}
+
+.barra ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+/*-ESTILO GLOBAL TÍTULOS-------------*/
+
+h2, h3 {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.titulo {
+    text-align: center;
+}
+
+/*HERO AREA*/
+.hero {
+    display: flex;
+    justify-content: center; 
+}
+
+.hero img {
+    max-width: 100%;
+}
+
+/* HISTORIA---*/
+
+.historia {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/*-BIOGRAFIAS---------*/
+
+.biografias {
+    margin-top: 56px;
+}
+
+.bios {
+    display: flex;
+    justify-content: center;
+}
+
+.bio {
+    width: 32%;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bios .bio img {
+    border-radius: 50%;
+    height: 12em;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+
+
+/*PRENDEDOR---------------*/
+.prendedor {
+    display: flex;   
+    margin-top: 56px;
+    justify-content: center;
+}
+
+.prendedor img {
+    padding-top: 15px;
+    height: 60px;  
+}
+/* DISCOGRAFÍA DE ESTUDIO-------*/
+
+.discografia {
+    margin: 40px 40px;
+    text-align: center;
+}
+
+.foto-grid-container {
+    display: flex;
+    justify-content: center;
+}
+
+.foto-grid {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    align-items: center;
+}
+
+.photo-grid-item {
+    margin: 5px;
+}
+
+/* VIDEO-------------*/
+.container-video {
+    display: flex;
+    margin-top: 56px;
+    justify-content: center;
+}
+
+#video {
+    border: whitesmoke 3px solid;
+}
+
+/*FORMULARIO DE CONTACTO*/
+
+.contacto {
+    display: flex;
+    padding-top: 56px;
+    justify-content: center;
+    background-color: darkgrey;
+}
+
+form {
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+    align-content: center;
+}
+
+.form-control {
+    width: 600px;
+    background: white;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    color: black;
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-bottom: 16px;   
+}
+
+input {
+    height: 45px;
+}
+
+form .submit {
+    background: #ff5722;
+    border-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+    margin-top: 20px;
+}
+/* FOOTER------------------------*/
+
+.footer {
+    display: flex;
+    margin-top: 56px;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+
+
