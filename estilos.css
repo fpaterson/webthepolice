@@ -16,35 +16,6 @@
     }
 }
 
-@keyframes kenburns-top {
-    0% {
-        -webkit-transform: scale(1) translateY(0);
-        transform: scale(1) translateY(0);
-        -webkit-transform-origin: 50% 16%;
-        transform-origin: 50% 16%;
-    }
-
-    100% {
-        -webkit-transform: scale(1.25) translateY(-15px);
-        transform: scale(1.25) translateY(-15px);
-        -webkit-transform-origin: top;
-        transform-origin: top;
-    }
-}
-
-@-webkit-keyframes slide-in-top {
-    0% {
-      -webkit-transform: translateY(-1000px);
-              transform: translateY(-1000px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateY(0);
-              transform: translateY(0);
-      opacity: 1;
-    }
-  }
-
   @-webkit-keyframes heartbeat {
     from {
       -webkit-transform: scale(1);
@@ -79,41 +50,6 @@
               animation-timing-function: ease-out;
     }
   }
-  @keyframes heartbeat {
-    from {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-      -webkit-transform-origin: center center;
-              transform-origin: center center;
-      -webkit-animation-timing-function: ease-out;
-              animation-timing-function: ease-out;
-    }
-    10% {
-      -webkit-transform: scale(0.91);
-              transform: scale(0.91);
-      -webkit-animation-timing-function: ease-in;
-              animation-timing-function: ease-in;
-    }
-    17% {
-      -webkit-transform: scale(0.98);
-              transform: scale(0.98);
-      -webkit-animation-timing-function: ease-out;
-              animation-timing-function: ease-out;
-    }
-    33% {
-      -webkit-transform: scale(0.87);
-              transform: scale(0.87);
-      -webkit-animation-timing-function: ease-in;
-              animation-timing-function: ease-in;
-    }
-    45% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-      -webkit-animation-timing-function: ease-out;
-              animation-timing-function: ease-out;
-    }
-  }
-  
 
 html {
     scroll-behavior: smooth;
@@ -127,7 +63,7 @@ body {
     padding: 0;
 }
 
-/* header-----*/
+/* ---------header-----*/
 
 header,
 div {
@@ -217,6 +153,8 @@ h3 {
     display: flex;
     justify-content: center;
     flex-flow: row;
+    overflow: hidden;
+   
 }
 
 /*.biografias .bios {
@@ -230,6 +168,8 @@ h3 {
 .bio {
     width: 320px;
     text-align: center;
+    overflow: hidden;
+    
 }
 
 .bio img {
@@ -350,8 +290,20 @@ form .submit {
     display: flex;
     justify-content: center;
     background-color: whitesmoke;
+    font-size: 10px;
 }
 
-.footer a {
-    align-items: center;
+.social {
+    display: inline-flex;
+    background-color: whitesmoke;
+    overflow: hidden;
+    
+} 
+
+.social .fab {
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 15px;
+   
+    font-size: 42px;    
 }
