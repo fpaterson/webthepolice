@@ -152,30 +152,28 @@ h3 {
 .bios {
     display: flex;
     justify-content: center;
-    flex-flow: row;
     overflow: hidden;
+    flex-flow: row wrap; /*este era el que me faltaba*/
    
 }
 
-/*.biografias .bios {
-    width: 100%;
-    justify-content: center;
-    flex-wrap: nowrap;
-    flex-direction: row; 
-    align-items: center;
-}*/
-
 .bio {
     width: 320px;
-    text-align: center;
+    text-align: left;
     overflow: hidden;
-    
+    padding-left: 15px;
+   
 }
 
-.bio img {
+.bios .bio img {
     border-radius: 50%;
-    height: 12em;
+    height: 12em;   
 }
+
+.bios .bio .center {
+    margin: 0 auto;
+}
+
 
 /*PRENDEDORES---------------*/
 
@@ -240,6 +238,7 @@ h3 {
 
 .container-video .video {
     margin: 0 auto;
+    overflow: hidden;
 }
 
 iframe {
@@ -293,17 +292,15 @@ form .submit {
     font-size: 10px;
 }
 
-.social {
+.social, .copyright {
     display: inline-flex;
     background-color: whitesmoke;
-    overflow: hidden;
-    
+    overflow: hidden;    
 } 
 
 .social .fab {
     width: 100%;
     padding-top: 5px;
-    padding-left: 15px;
-   
-    font-size: 42px;    
+    padding-left: 15px;  
+    font-size: 30px;    
 }
