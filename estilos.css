@@ -333,10 +333,10 @@ form .submit {
 /* FOOTER------------------------*/
 
 .footer {
-    display: flex;
-    justify-content: center;
+    display: inline;
     background-color: whitesmoke;
-    font-size: 10px;
+    font-size: 14px;
+    padding-left: 8px;
 }
 
 .social, .copyright {
@@ -351,4 +351,5 @@ form .submit {
     padding-left: 15px;  
     font-size: 30px; 
     color:gray;   
+    align-self: c
 }
