@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
+/* EFECTO EN FOTO HERO AREA */
 @-webkit-keyframes kenburns-top {
     0% {
         -webkit-transform: scale(1) translateY(0);
@@ -16,6 +17,7 @@
     }
 }
 
+/* EFECTO EN TAPAS DISCOS*/
   @-webkit-keyframes heartbeat {
     from {
       -webkit-transform: scale(1);
@@ -228,25 +230,31 @@ h3 {
 
 /* VIDEO-------------*/
 
-.container-video {
-    display: block;
-    margin: auto;
-}
 
-.container-video .video {
-    margin: 0 auto;
+.video-responsive {
+    position: relative;
+    padding-bottom: 56.25%; /* 16/9 ratio */
+    padding-top: 30px; /* IE6 workaround*/
+    height: 0;
     overflow: hidden;
-}
+    }
+    
+    .video-responsive iframe,
+    .video-responsive object,
+    .video-responsive embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
 
-iframe {
-    border: 2px solid whitesmoke;
-}
 
 /*FORMULARIO DE CONTACTO*/
 
 .contacto {
     display: block;
-    background-color: darkgrey;
+    background-color:darkgrey;
 }
 
 form {
