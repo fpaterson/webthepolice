@@ -18,40 +18,44 @@
 }
 
 /* EFECTO EN TAPAS DISCOS*/
-  @-webkit-keyframes heartbeat {
+@-webkit-keyframes heartbeat {
     from {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-      -webkit-transform-origin: center center;
-              transform-origin: center center;
-      -webkit-animation-timing-function: ease-out;
-              animation-timing-function: ease-out;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: center center;
+        transform-origin: center center;
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
     }
+
     10% {
-      -webkit-transform: scale(0.91);
-              transform: scale(0.91);
-      -webkit-animation-timing-function: ease-in;
-              animation-timing-function: ease-in;
+        -webkit-transform: scale(0.91);
+        transform: scale(0.91);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
     }
+
     17% {
-      -webkit-transform: scale(0.98);
-              transform: scale(0.98);
-      -webkit-animation-timing-function: ease-out;
-              animation-timing-function: ease-out;
+        -webkit-transform: scale(0.98);
+        transform: scale(0.98);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
     }
+
     33% {
-      -webkit-transform: scale(0.87);
-              transform: scale(0.87);
-      -webkit-animation-timing-function: ease-in;
-              animation-timing-function: ease-in;
+        -webkit-transform: scale(0.87);
+        transform: scale(0.87);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
     }
+
     45% {
-      -webkit-transform: scale(1);
-              transform: scale(1);
-      -webkit-animation-timing-function: ease-out;
-              animation-timing-function: ease-out;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
     }
-  }
+}
 
 html {
     scroll-behavior: smooth;
@@ -157,15 +161,16 @@ h3 {
     padding-top: 32px;
     justify-content: center;
     overflow: hidden;
-    flex-flow: row wrap; /*este era el que me faltaba*/
-   
+    flex-flow: row wrap;
+    /*este era el que me faltaba*/
+
 }
 
 .bio {
     width: 320px;
     text-align: left;
     overflow: hidden;
-    padding-left: 15px;  
+    padding-left: 15px;
 }
 
 .bios .bio .imagen {
@@ -174,7 +179,7 @@ h3 {
 
 .bios .bio img {
     border-radius: 50%;
-    height: 12em;   
+    height: 12em;
 }
 
 
@@ -232,8 +237,8 @@ h3 {
 }
 
 .photo-grid-item img:hover {
-        -webkit-animation: heartbeat 1.5s ease-in-out both;
-                animation: heartbeat 1.5s ease-in-out both;
+    -webkit-animation: heartbeat 1.5s ease-in-out both;
+    animation: heartbeat 1.5s ease-in-out both;
 }
 
 /* VIDEO-------------*/
@@ -241,28 +246,30 @@ h3 {
 
 .video-responsive {
     position: relative;
-    padding-bottom: 56.25%; /* 16/9 ratio */
-    padding-top: 30px; /* IE6 workaround*/
+    padding-bottom: 56.25%;
+    /* 16/9 ratio */
+    padding-top: 30px;
+    /* IE6 workaround*/
     height: 0;
     overflow: hidden;
-    }
-    
-    .video-responsive iframe,
-    .video-responsive object,
-    .video-responsive embed {
+}
+
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    }
+}
 
 
 /*FORMULARIO DE CONTACTO*/
 
 .contacto {
     display: block;
-    background-color:darkgrey;
+    background-color: darkgrey;
 }
 
 form {
@@ -297,67 +304,92 @@ form .submit {
 }
 
 .myButton {
-	-moz-box-shadow:inset 0px 1px 0px 0px #cf866c;
-	-webkit-box-shadow:inset 0px 1px 0px 0px #cf866c;
-	box-shadow:inset 0px 1px 0px 0px #cf866c;
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d0451b), color-stop(1, #bc3315));
-	background:-moz-linear-gradient(top, #d0451b 5%, #bc3315 100%);
-	background:-webkit-linear-gradient(top, #d0451b 5%, #bc3315 100%);
-	background:-o-linear-gradient(top, #d0451b 5%, #bc3315 100%);
-	background:-ms-linear-gradient(top, #d0451b 5%, #bc3315 100%);
-	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0451b', endColorstr='#bc3315',GradientType=0);
-	background-color:#d0451b;
-	-moz-border-radius:10px;
-	-webkit-border-radius:10px;
-	border-radius:10px;
-	border:1px solid #942911;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:18px;
-	padding:18px 76px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #854629;
+    -moz-box-shadow: inset 0px 1px 0px 0px #cf866c;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #cf866c;
+    box-shadow: inset 0px 1px 0px 0px #cf866c;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d0451b), color-stop(1, #bc3315));
+    background: -moz-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+    background: -webkit-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+    background: -o-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+    background: -ms-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+    background: linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0451b', endColorstr='#bc3315', GradientType=0);
+    background-color: #d0451b;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #942911;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 18px;
+    padding: 18px 76px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #854629;
 }
+
 .myButton:hover {
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bc3315), color-stop(1, #d0451b));
-	background:-moz-linear-gradient(top, #bc3315 5%, #d0451b 100%);
-	background:-webkit-linear-gradient(top, #bc3315 5%, #d0451b 100%);
-	background:-o-linear-gradient(top, #bc3315 5%, #d0451b 100%);
-	background:-ms-linear-gradient(top, #bc3315 5%, #d0451b 100%);
-	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc3315', endColorstr='#d0451b',GradientType=0);
-	background-color:#bc3315;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bc3315), color-stop(1, #d0451b));
+    background: -moz-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+    background: -webkit-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+    background: -o-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+    background: -ms-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+    background: linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bc3315', endColorstr='#d0451b', GradientType=0);
+    background-color: #bc3315;
 }
+
 .myButton:active {
-	position:relative;
-	top:1px;
+    position: relative;
+    top: 1px;
 }
 
 
 
 /* FOOTER------------------------*/
 
-.footer {
-    display: inline;
+footer {
     background-color: whitesmoke;
     font-size: 14px;
-    padding-left: 8px;
+    padding-left: 16px;
+    height: 40px;
+    display: flex;
 }
 
-.social, .copyright {
+.copyright {
+    width: 90%;
+}
+
+.social {
+    width: 10%;
+}
+
+.iconos {
     display: inline-flex;
+    overflow: hidden;
     background-color: whitesmoke;
-    overflow: hidden;    
-} 
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.social,
+.copyright {
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+.iconos-social {
+    background-color: whitesmoke;
+    overflow: hidden;
+
+}
 
 .social .fab {
-    width: 100%;
-    padding-top: 5px;
-    padding-left: 15px;  
-    font-size: 30px; 
-    color:gray;   
-    align-self: c
+    padding-top: 0px;
+    padding-right: 8px;
+    padding-left: 15px;
+    font-size: 30px;
+    color: gray;
+
 }
