@@ -168,6 +168,10 @@ h3 {
     padding-left: 15px;  
 }
 
+.bios .bio .imagen {
+    text-align: center;
+}
+
 .bios .bio img {
     border-radius: 50%;
     height: 12em;   
