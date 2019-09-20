@@ -205,13 +205,13 @@ h3 {
 /* DISCOGRAFÍA DE ESTUDIO-------*/
 
 .foto-grid-container {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
 }
 
 .foto-grid {
     width: 80%;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
@@ -221,6 +221,10 @@ h3 {
 .photo-grid-item {
     margin-right: 10px;
     margin-left: 10px;
+}
+
+.photo-grid-item a {
+    text-decoration: none;
 }
 
 .photo-grid-item img:hover {
