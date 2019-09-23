@@ -208,7 +208,7 @@ h3 {
 /* DISCOGRAFÍA DE ESTUDIO-------*/
 
 .foto-grid-container {
-    display: inline-flex;
+    display: flex;
     justify-content: center;
 }
 
@@ -244,7 +244,7 @@ h3 {
 
 /*FORMULARIO DE CONTACTO*/
 
-.contacto {
+#contacto {
     display: block;
     background-color: darkgrey;
 }
